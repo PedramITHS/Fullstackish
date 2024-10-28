@@ -23,7 +23,7 @@ export default function Update() {
     const image = document.getElementById("imagePatch").value;
     if (image) patchValues.image = image;
 
-    fetch(`http://localhost:3000/upd/${gameID}`, {
+    fetch(`/upd/${gameID}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",

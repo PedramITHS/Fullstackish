@@ -22,7 +22,7 @@ export default function Crud() {
 
   const insertGame = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/add", {
+    fetch("/add", {
       method: "POST",
       headers: {
         "Content-type": "application/x-www-form-urlencoded",
@@ -106,17 +106,15 @@ export default function Crud() {
 
           <label htmlFor="image">Choose an image:</label>
           <select id="image" name="image" onChange={onChange}>
-            <option value="./src/assets/covers/temporary.png">
-              Placeholder
-            </option>
-            <option value="./src/assets/covers/action.png">Action</option>
-            <option value="./src/assets/covers/rpg.png">RPG</option>
-            <option value="./src/assets/covers/racing.png">Racing</option>
-            <option value="./src/assets/covers/shootemup.png">
+            <option value="assets/covers/temporary.png">Placeholder</option>
+            <option value="assets/covers/action.png">Action</option>
+            <option value="assets/covers/rpg.png">RPG</option>
+            <option value="assets/covers/racing.png">Racing</option>
+            <option value="assets/covers/shootemup.png">
               Shoot&apos;em up
             </option>
-            <option value="./src/assets/covers/sport.png">Sport</option>
-            <option value="./src/assets/covers/fps.png">FPS</option>
+            <option value="assets/covers/sport.png">Sport</option>
+            <option value="assets/covers/fps.png">FPS</option>
           </select>
 
           <label htmlFor="descrip">Game description:</label>

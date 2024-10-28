@@ -35,7 +35,7 @@ export default function Delete() {
 
   const deleteGame = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/del", {
+    fetch("/del", {
       method: "DELETE",
       headers: {
         "Content-type": "application/x-www-form-urlencoded",
