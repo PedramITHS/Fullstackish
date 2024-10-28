@@ -114,15 +114,13 @@ export default function Update() {
 
         <label htmlFor="imagePatch">Choose an image:</label>
         <select id="imagePatch" name="imagePatch">
-          <option value="./src/assets/covers/temporary.png">Placeholder</option>
-          <option value="./src/assets/covers/action.png">Action</option>
-          <option value="./src/assets/covers/rpg.png">RPG</option>
-          <option value="./src/assets/covers/racing.png">Racing</option>
-          <option value="./src/assets/covers/shootemup.png">
-            Shoot&apos;em up
-          </option>
-          <option value="./src/assets/covers/sport.png">Sport</option>
-          <option value="./src/assets/covers/fps.png">FPS</option>
+          <option value="assets/covers/temporary.png">Placeholder</option>
+          <option value="assets/covers/action.png">Action</option>
+          <option value="assets/covers/rpg.png">RPG</option>
+          <option value="assets/covers/racing.png">Racing</option>
+          <option value="assets/covers/shootemup.png">Shoot&apos;em up</option>
+          <option value="assets/covers/sport.png">Sport</option>
+          <option value="assets/covers/FPS.png">FPS</option>
         </select>
 
         <label htmlFor="descripPatch">Game description:</label>
