@@ -8,7 +8,7 @@ https://custom-games.onrender.com/
 ```
 
 ## CDN
-Ett Content Delivery Network (CDN) är ett nätverk av servrar som distribueraa över olika platser, byggt för att snabbt leverera webbinnehåll som bilder, videor, JavaScript, och CSS till användaren. Målet är att minska laddningstider genom att servera innehåll från en server nära användarens fysiska plats.
+Ett Content Delivery Network (CDN) är ett nätverk av servrar som distribuerar över olika platser, byggt för att snabbt leverera webbinnehåll som bilder, videor, JavaScript, och CSS till användaren. Målet är att minska laddningstider genom att servera innehåll från en server nära användarens fysiska plats.
 
 Fördelar:  
 Snabbare laddningstider.  
