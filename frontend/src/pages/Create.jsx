@@ -114,7 +114,7 @@ export default function Crud() {
               Shoot&apos;em up
             </option>
             <option value="assets/covers/sport.png">Sport</option>
-            <option value="assets/covers/fps.png">FPS</option>
+            <option value="assets/covers/FPS.png">FPS</option>
           </select>
 
           <label htmlFor="descrip">Game description:</label>
